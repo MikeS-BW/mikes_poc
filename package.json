@@ -174,7 +174,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress-cloud": "npx cypress run --record --key 484e352e-9fe5-4dcc-a4d8-ec29c2c6b4d5"
+    "cypress-cloud": "npx cypress run --record --key 484e352e-9fe5-4dcc-a4d8-ec29c2c6b4d5 --parallel"
   },
   "author": "",
   "license": "ISC",
