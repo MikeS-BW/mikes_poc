@@ -4,7 +4,7 @@ describe('bw home page', () => {
     })
 
     it('hero text says Business Wire Login', () => {
-      cy.get('.bw-font-light-variant > :nth-child(1)').contains("Business Wire")
+      cy.get('.bw-font-light-variant > :nth-child(1)').contains("BusinessWire")
       cy.get('.bold').contains("Log In")
     })    
     it("BW logo is present", () => {
