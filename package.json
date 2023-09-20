@@ -175,7 +175,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress-cloud": "npx cypress run --record --key 484e352e-9fe5-4dcc-a4d8-ec29c2c6b4d5 --parallel",
-    "project-alpha": "npx cypress run --record --key e86ee525-4712-40cf-8ef7-7981b3a64d50 --spec cypress/e2e/home2.cy.js,cypress/e2e/cyKitchenSink.cy.js"
+    "project-alpha": "npx cypress run --record --key e86ee525-4712-40cf-8ef7-7981b3a64d50 --spec cypress/e2e/home2.cy.js,cypress/e2e/cyKitchenSink.cy.js",
+    "project-beta": "npx cypress run --record --key 8e1fb688-1ab9-40cc-8e26-67431f9267ca --spec cypress/e2e/c5.cy.js" 
   },
   "author": "",
   "license": "ISC",
